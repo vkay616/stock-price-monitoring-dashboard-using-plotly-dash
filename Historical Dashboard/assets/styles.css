@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica';
+    overflow: hidden;
+}
+
+#container {
+    height: 150px;
+    width: 100%;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+#header {
+    margin: 0;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+
+#stock-symbol-dropdown {
+    width: 60%;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#year-dropdown {
+    width: 20%;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#plot-btn {
+    position: absolute;
+    display: inline-block;
+    background-color: white;
+    border: 0;
+    color: cadetblue;
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+
+#plot-btn:hover {
+    background-color: rgb(193, 222, 223);
+    color: white;
+}
+
+#historical-stock-price-graph {
+    margin: 1%;
+    height: 500px;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.whitespace {
+    margin-right: 51.3%;
+}
+
+hr {
+    border: 1px solid white;
+    margin-top: -1%;
+    margin-left: -5%;
+    margin-bottom: 2%;
+}
